@@ -91,8 +91,8 @@ body {
 /* ==============
     MOBILE: Menu
    ============== */
-  #logo{
-   	float:none;
+  
+  .logo {
    	height:104px;
    	width:285px;
    }
@@ -110,7 +110,7 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
 
     color: white;
     background: #e44d26;
@@ -178,8 +178,7 @@ nav a:hover {
     INTERMEDIATE: Menu
    ==================== */
   
-  #logo{
-  		float:none;
+  .logo{
    		height:104px;
    		width:285px;
    }
@@ -187,10 +186,10 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
+        width: 19.5%;
+        margin: 0;
+        padding:12px 0;
+        border-right:1px solid #FFFFFF;
     }
 
     nav li:first-child a {
@@ -199,6 +198,7 @@ nav a:hover {
 
     nav li:last-child a {
         margin-right: 0;
+        border-right:none;
     }
 
 /* ========================
@@ -231,16 +231,10 @@ nav a:hover {
     WIDE: Menu
    ============ */
 
-   #logo{
-   		float:left;
+   .logo{
    		height:104px;
    		width:285px;
    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
     
     nav ul li a:hover{
 		background:rgba(255,255,255,0.5);
@@ -261,13 +255,6 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 1140px) {
-	
-	#logo{
-   		float:left;
-   		height:104px;
-   		width:285px;
-   	}
-
 
 	nav ul li a:hover{
 		background:rgba(255,255,255,0.5);

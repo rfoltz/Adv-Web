@@ -88,13 +88,15 @@ body {
     background: #f16529;
 }
 
-.title {
-    color: white;
-}
-
 /* ==============
     MOBILE: Menu
    ============== */
+  #logo{
+   	float:none;
+   	height:104px;
+   	width:285px;
+   }
+
 
 nav ul {
     margin: 0;
@@ -149,14 +151,9 @@ nav a:hover {
     ALL: IE Fixes
    =============== */
 
-.ie7 .title {
-    padding-top: 20px;
-}
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 
 
 
@@ -180,6 +177,13 @@ nav a:hover {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
+  
+  #logo{
+  		float:none;
+   		height:104px;
+   		width:285px;
+   }
+
 
     nav a {
         float: left;
@@ -227,15 +231,20 @@ nav a:hover {
     WIDE: Menu
    ============ */
 
-    .title {
-        float: left;
-    }
+   #logo{
+   		float:left;
+   		height:104px;
+   		width:285px;
+   }
 
     nav {
         float: right;
         width: 38%;
     }
-
+    
+    nav ul li a:hover{
+		background:rgba(255,255,255,0.5);
+	}
 /* ============
     WIDE: Main
    ============ */
@@ -252,6 +261,17 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 1140px) {
+	
+	#logo{
+   		float:left;
+   		height:104px;
+   		width:285px;
+   	}
+
+
+	nav ul li a:hover{
+		background:rgba(255,255,255,0.5);
+	}
 
 /* ===============
     Maximal Width

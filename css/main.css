@@ -1,10 +1,3 @@
-/*--Source File: main.css
-Name:Robert Foltz
-Last Modified By: Robert Foltz
-Date Last Modified: 2013-01-21
-File Description: This is the main styling for the website.
-*/
-
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -81,12 +74,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 10px solid #e44d26;
+    border-bottom: 20px solid #e44d26;
 }
 
 .footer-container,
 .main aside {
-    border-top: 10px solid #e44d26;
+    border-top: 20px solid #e44d26;
 }
 
 .header-container,
@@ -121,10 +114,6 @@ nav a {
 
     color: white;
     background: #e44d26;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
-    
 }
 
 nav a:hover,
@@ -151,9 +140,6 @@ nav a:hover {
 .main aside {
     color: white;
     padding: 0px 5% 10px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
 }
 
 .footer-container footer {
@@ -204,9 +190,6 @@ nav a:hover {
         margin: 0;
         padding:12px 0;
         border-right:1px solid #FFFFFF;
-        -webkit-border-radius: 0;
-	    -moz-border-radius: 0;
-	    border-radius: 0;
     }
 
     nav li:first-child a {
@@ -254,7 +237,7 @@ nav a:hover {
    }
     
     nav ul li a:hover{
-		background:rgba(255,255,255,0.25);
+		background:rgba(255,255,255,0.5);
 	}
 /* ============
     WIDE: Main
@@ -274,7 +257,7 @@ nav a:hover {
 @media only screen and (min-width: 1140px) {
 
 	nav ul li a:hover{
-		background:rgba(255,255,255,0.25);
+		background:rgba(255,255,255,0.5);
 	}
 
 /* ===============

@@ -136,6 +136,14 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#github-menu {
+	display:block;
+}
+
+#github-ribbon {
+	display:none;
+}
+
 /* ==============
     MOBILE: Main
    ============== */
@@ -217,6 +225,15 @@ nav a:hover {
         margin-right: 0;
         border-right:none;
     }
+	
+	#github-menu {
+		display:none;
+	}
+	
+	#github-ribbon{
+		display:block;
+	}
+
 
 /* ========================
     INTERMEDIATE: IE Fixes

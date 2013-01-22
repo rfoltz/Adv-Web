@@ -49,6 +49,10 @@
   border-color: rgba(255,255,255,0.7);
 }
 
+.github-fork-ribbon a:hover, a:active, a:focus {
+	outline: 0; /* Robert Foltz added so there is no ie outline when clicked */
+}
+
 .github-fork-ribbon-wrapper {
   width: 150px;
   height: 150px;
@@ -86,6 +90,7 @@
   /* Rotate the banner 45 degrees */
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
@@ -98,6 +103,7 @@
   /* Rotate the banner -45 degrees */
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
@@ -111,6 +117,7 @@
   /* Rotate the banner -45 degrees */
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
@@ -126,6 +133,7 @@
   /* Rotate the banner -45 degrees */
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }

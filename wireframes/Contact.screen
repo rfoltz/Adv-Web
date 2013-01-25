@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="10" y="10" measuredWidth="969" measuredHeight="857">
+    <screen xsi:type="model:Screen" href="About.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="689" y="386" text="me@robertfoltz.com">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="702" y="358" text="34 Curtiss Court, Barrie, Ontario">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="689" y="331" width="141" text="705-796-4981">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="637" y="295" text="Contact Info">
+          <font size="18px" bold="false"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="644" y="386" text="Email:">
+          <font bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="644" y="358" text="Address:">
+          <font bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="644" y="331" text="Phone:">
+          <font bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Rectangle" x="615" y="280" width="288" height="151">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="120" y="406" text="Body:">
+          <font bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:TextArea" x="181" y="406" width="330" height="145" text="A *paragraph* of text&#xA;A _second_ row of text">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="120" y="374" text="Subject:">
+          <font bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:TextField" x="181" y="374" width="330" text="Hello Robert">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Button" x="459" y="558" text="Email">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="22"/>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="20"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="18"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="16"/>
+      <widgetChanges xsi:type="o:Delete" ref="15"/>
+      <widgetChanges xsi:type="o:Delete" ref="14"/>
+      <widgetChanges xsi:type="o:Delete" ref="11"/>
+      <widgetChanges xsi:type="o:Delete" ref="9"/>
+      <widgetChanges xsi:type="o:Delete" ref="8"/>
+      <widgets ref="5" text="Contact Me"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

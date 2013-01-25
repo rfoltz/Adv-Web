@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="32" y="40" width="969" height="1209" text="Browser&#xA;http://..." measuredWidth="969" measuredHeight="1209"/>
+  <widgets xsi:type="model:Panel" id="2" x="32" y="92" width="969" height="157" measuredWidth="969" measuredHeight="157"/>
+  <widgets xsi:type="model:ButtonBar" id="3" x="120" y="210" width="761" height="39" text="Home, About, Projects, Services, Contact" measuredWidth="761" measuredHeight="39" selection="0">
+    <font/>
+    <items x="0" y="0" width="134" height="39" text="Home"/>
+    <items x="134" y="0" width="136" height="39" text="About"/>
+    <items x="270" y="0" width="162" height="39" text="Projects"/>
+    <items x="432" y="0" width="162" height="39" text="Services"/>
+    <items x="594" y="0" width="167" height="39" text="Contact"/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="4" x="120" y="102" width="217" height="91"/>
+  <widgets xsi:type="model:Label" id="5" x="120" y="280" width="361" text="Services" measuredWidth="361" measuredHeight="59">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="6" x="32" y="1180" width="969" height="69" text="                       Copyright Robert Foltz 2013" measuredWidth="969" measuredHeight="69" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="928" y="116" measuredWidth="5" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="8" x="889" y="116" text="GitHub" measuredWidth="44" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="120" y="355" text="Web Development" measuredWidth="286" measuredHeight="46">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="11" x="120" y="400" width="761" height="161"/>
+  <widgets xsi:type="model:Text" id="19" x="120" y="576" width="761" height="113" measuredWidth="761" measuredHeight="113" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="120" y="715" text="Desktop Applications" measuredWidth="336" measuredHeight="46">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="21" x="120" y="760" width="761" height="161"/>
+  <widgets xsi:type="model:Text" id="22" x="120" y="944" width="761" height="113" measuredWidth="761" measuredHeight="113" dummyText="true">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

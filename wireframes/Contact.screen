@@ -4,6 +4,20 @@
     <screen xsi:type="model:Screen" href="About.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Placeholder" x="733" y="453" width="32" height="32" text="YT"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Placeholder" x="685" y="453" width="32" height="32" text="In"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Placeholder" x="637" y="453" width="32" height="32" text="G+"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
+        <object xsi:type="model:Label" x="637" y="428" text="Follow Me!">
+          <font size="16px" bold="true"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="20">
         <object xsi:type="model:Label" x="689" y="386" text="me@robertfoltz.com">
           <font/>
         </object>
@@ -20,7 +34,7 @@
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="20">
         <object xsi:type="model:Label" x="637" y="295" text="Contact Info">
-          <font size="18px" bold="false"/>
+          <font size="18px" bold="true"/>
         </object>
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="20">
@@ -39,7 +53,7 @@
         </object>
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="20">
-        <object xsi:type="model:Rectangle" x="615" y="280" width="288" height="151">
+        <object xsi:type="model:Rectangle" x="615" y="280" width="288" height="247">
           <font/>
         </object>
       </widgetChanges>

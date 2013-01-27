@@ -209,6 +209,22 @@ nav a:hover {
 	margin-right:10px;
 }
 
+textarea#body {
+	width: 275px;
+	height: 150px;
+}
+
+input#subject {
+	width: 275px;
+	height: 20px;
+}
+
+#sendEmail {
+	margin-top:10px;
+	margin-bottom:10px;
+	float:right;
+}
+
 
 
 
@@ -255,6 +271,17 @@ nav a:hover {
 	#github-ribbon{
 		display:block;
 	}
+	
+	textarea#body {
+		width: 350px;
+		height: 150px;
+	}
+
+	input#subject {
+		width: 350px;
+		height: 20px;
+	}
+	
 
 
 /* ========================

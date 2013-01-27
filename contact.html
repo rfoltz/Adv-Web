@@ -358,12 +358,12 @@ File Description: This is the main page of my portfolio site.
 </svg>
             	<nav>
                     <ul>
-                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li id="github-menu"><a href="https://github.com/rfoltz">GitHub</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -377,32 +377,24 @@ File Description: This is the main page of my portfolio site.
 
                 <article>
                     <header>
-                        <h1>Welcome to my site!</h1>
-                        <p>Enjoy.</p>
+                        <h1>Contact Me</h1>
                     </header>
-                    
-                    <!--
-                    ----- FlexSlider -------
-                    -->
-                    <section class="slider">
-                        <div class="flexslider">
-                          <ul class="slides">
-                            <li>
-                            <a href="projects.html#website"><img src="imgs/mobile.png" /></a>
-                            </li>
-                            <li>
-                             <a href="projects.html#game"><img src="imgs/game.png" /></a>
-                            </li>
-                            <li>
-                             <a href="projects.html#youtube"><img src="imgs/youtube.png" /></a>
-                            </li>
-                          </ul>
-                        </div>
-                      </section>
-                    
                     <footer>
-                        <h2>I'm the guy who programmes anything and everything.</h2>
-                        <p>I've used many languages from web technology which include, HTML5, CSS3, jQuery all the way to desktop applications with Java and C#. If you would like to see the projects please visit my projects page where I list my greatest projects or visit my services page to see what I offer!</p>
+                    <form action="MAILTO:me@robertfoltz.com" method="post" enctype="text/plain">
+                        <table>
+                            <tr>
+                                <td><span class="bold">Subject:</span></td>
+                                <td><input id="subject" type="text" name="subject"></td>
+                            </tr>
+                            <tr>
+                                <td><span class="bold">Body:</span></td>
+                                <td><textarea id="body"></textarea></td>
+                            </tr>
+                            <tr>
+                            	<td colspan="2"><input id="sendEmail" type="submit" value="Email"></td>
+                            </tr>
+                        </table>
+                    </form>
                     </footer>
                 </article>
 
@@ -410,13 +402,16 @@ File Description: This is the main page of my portfolio site.
                 ----- Follow Me / Social Networks -------
                 -->
                 <aside>
+                    <h3>Contact Info</h3>
+                    <p><span class="bold">Phone:</span> 705-796-4981</p>
+                    <p><span class="bold">Address:</span> 34 Curtiss Court, Barrie, Ontario, Canada</p>
+                    <p><span class="bold">Email:</span> me@robertfoltz.com</p>
                     <h3>Follow Me!</h3>
                     <a href="//plus.google.com/109073700143949670409?prsrc=3" rel="publisher" style="text-decoration:none;">
                     <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
                     <a href="//ca.linkedin.com/pub/robert-foltz/63/b61/593" rel="" style="text-decoration:none;">
                     <img src="imgs/linkedin_32.png" alt="LinkedIn" style="border:0;width:32px;height:32px;"/></a>
                     <a href="http://www.youtube.com/user/FatherBadT0uch?feature=creators_cornier-%2F%2Fs.ytimg.com%2Fyt%2Fimg%2Fcreators_corner%2FYouTube%2F40x40_yt_red.png"><img src="//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="width:32px; height:32px;" alt="Subscribe to me on YouTube"/></a><img src="//www.youtube-nocookie.com/gen_204?feature=creators_cornier-//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="display: none"/>
-                    <p>Feel free to click on any of the following social networks and chat with me I'm always up for talking to new people.</p>
                 </aside>
 
             </div> <!-- #main -->
@@ -438,9 +433,6 @@ File Description: This is the main page of my portfolio site.
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        
-        <!-- FlexSlider -->
-	    <script defer src="js/jquery.flexslider-min.js"></script>
         
         <!-- My Javascript. -->
         <script src="js/main.js"></script>

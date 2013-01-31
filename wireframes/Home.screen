@@ -45,6 +45,18 @@
   <widgets xsi:type="model:Text" id="22" x="640" y="384" width="241" height="129" measuredWidth="241" measuredHeight="129" dummyText="true">
     <font/>
   </widgets>
+  <widgets xsi:type="model:Arrow" id="23" x="352" y="116" width="65" height="39" measuredWidth="65" measuredHeight="39" annotation="true"/>
+  <widgets xsi:type="model:Label" id="24" x="344" y="150" text="Placeholder for \n the Logo" measuredWidth="97" measuredHeight="38">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="25" x="744" y="544" width="65" height="39" measuredWidth="65" measuredHeight="39" annotation="true"/>
+  <widgets xsi:type="model:Label" id="26" x="736" y="578" text="Social Networking Box" measuredWidth="135" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="27" x="904" y="134" width="65" height="27" measuredWidth="65" measuredHeight="27" annotation="true"/>
+  <widgets xsi:type="model:Label" id="28" x="870" y="160" text="Placeholder for \n The GitHub Ribbon" measuredWidth="120" measuredHeight="38">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

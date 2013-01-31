@@ -3,85 +3,95 @@
   <widgets xsi:type="model:Master" id="1" x="10" y="10" measuredWidth="969" measuredHeight="857">
     <screen xsi:type="model:Screen" href="About.screen#/"/>
     <overrides>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="24">
+        <object xsi:type="model:Label" x="870" y="160" text="Placeholder for \n The GitHub Ribbon">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="24">
+        <object xsi:type="model:Arrow" x="904" y="134" width="65" height="27" annotation="true"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Placeholder" x="733" y="453" width="32" height="32" text="YT"/>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Placeholder" x="685" y="453" width="32" height="32" text="In"/>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Placeholder" x="637" y="453" width="32" height="32" text="G+"/>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="637" y="428" text="Follow Me!">
           <font size="16px" bold="true"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="689" y="386" text="me@robertfoltz.com">
           <font/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="702" y="358" text="34 Curtiss Court, Barrie, Ontario">
           <font/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="689" y="331" width="141" text="705-796-4981">
           <font/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="637" y="295" text="Contact Info">
           <font size="18px" bold="true"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="644" y="386" text="Email:">
           <font bold="true"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="644" y="358" text="Address:">
           <font bold="true"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="644" y="331" text="Phone:">
           <font bold="true"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Rectangle" x="615" y="280" width="288" height="247">
           <font/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="120" y="406" text="Body:">
           <font bold="true"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:TextArea" x="181" y="406" width="330" height="145" text="A *paragraph* of text&#xA;A _second_ row of text">
           <font/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Label" x="120" y="374" text="Subject:">
           <font bold="true"/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:TextField" x="181" y="374" width="330" text="Hello Robert">
           <font/>
         </object>
       </widgetChanges>
-      <widgetChanges xsi:type="o:Insert" newIndex="20">
+      <widgetChanges xsi:type="o:Insert" newIndex="22">
         <object xsi:type="model:Button" x="459" y="558" text="Email">
           <font/>
         </object>
       </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="24"/>
+      <widgetChanges xsi:type="o:Delete" ref="23"/>
       <widgetChanges xsi:type="o:Delete" ref="22"/>
       <widgetChanges xsi:type="o:Delete" ref="21"/>
       <widgetChanges xsi:type="o:Delete" ref="20"/>

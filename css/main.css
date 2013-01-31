@@ -136,10 +136,6 @@ nav a:visited {
     color: white;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 #github-menu {
 	display:block;
 }
@@ -216,7 +212,7 @@ textarea#body {
 
 input#subject {
 	width: 275px;
-	height: 20px;
+	/*height: 20px;*/
 }
 
 #sendEmail {
@@ -254,6 +250,10 @@ input#subject {
 	    -moz-border-radius: 0;
 	    border-radius: 0;
     }
+	
+	nav a:hover {
+    	text-decoration: underline;
+	}
 
     nav li:first-child a {
         margin-left: 0;

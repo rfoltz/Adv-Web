@@ -221,6 +221,27 @@ input#subject {
 	float:right;
 }
 
+#actionButton {
+	width:180px;
+	margin:10px 0;
+	padding:0 5px;
+	background:#999999;
+	-webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+#actionButton:hover {
+	cursor:pointer;
+}
+
+#actionButton a {
+	text-decoration:none;
+}
+
+#actionButton a:visited {
+	color:#FFFFFF;
+}
 
 
 

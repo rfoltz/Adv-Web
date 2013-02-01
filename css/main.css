@@ -237,6 +237,7 @@ input#subject {
 
 #actionButton a {
 	text-decoration:none;
+	color:#FFFFFF;
 }
 
 #actionButton a:visited {

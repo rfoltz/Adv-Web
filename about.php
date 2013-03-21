@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--Source File: contact.html
+<!--Source File: about.php
 Name:Robert Foltz
 Last Modified By: Robert Foltz
 Website Name: Robert Folt's Portfolio
-File Description: This is the contact page of my portfolio site.
+File Description: This is the about page of my portfolio site.
 -->
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -358,12 +358,12 @@ File Description: This is the contact page of my portfolio site.
 </svg>
             	<nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a class="active" href="about.php">About</a></li>
+                        <li><a href="projects.php">Projects</a></li>
+                        <li><a href="services.php">Services</a></li>
                         <li id="github-menu"><a href="https://github.com/rfoltz">GitHub</a></li>
-                        <li><a class="active" href="contact.html">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -377,40 +377,42 @@ File Description: This is the contact page of my portfolio site.
 
                 <article>
                     <header>
-                        <h1>Contact Me</h1>
+                        <h1>About Me</h1>
+                        <p>Well you're here so you must want to know a little bit about me. My names's Robert Foltz I'm a computer programmer analyst who's worked with varying sizes of businesses from a small family owned business to a big corparation. I've done many things from working with customers to resolve issues with the software to working with vice preisdents of divisions. I've worked with some new and old programming languages from C# to Visual Fox Pro, I even designed this website you're currently browsing.</p>
                     </header>
                     <footer>
-                    <!-- Form for contacting me -->
-                    <form action="MAILTO:me@robertfoltz.com" method="post" enctype="text/plain">
-                        <table>
-                            <tr>
-                                <td><input id="subject" type="text" name="subject" placeholder="Subject"></td>
-                            </tr>
-                            <tr>
-                                <td><textarea id="body" name="message" placeholder="Message"></textarea></td>
-                            </tr>
-                            <tr>
-                            	<td><input id="sendEmail" type="submit" value="Email"></td>
-                            </tr>
-                        </table>
-                    </form>
+                        <h2>CV</h2>
+                        <p>Here's a summary of my work experience but if you would like to see a full view please feel free to download my CV in pdf form.</p>
+                    	<a href="media/Robert-Foltz-CV.pdf">Robert Foltz CV</a>
+                        <h4>Education</h4>
+                    	<p>(Sept 2010 – Present) Georgian College, Barrie Ontario.</p>
+                        <ul>
+                            <li>Currently in the Computer Programmer Analyst(Co-op) program</li>
+                            <li>Expected Graduation Summer of 2013</li>
+                            <li>Courses Complete: Advance Database, Enterprise Computing, Mainframes(COBOL), Systems Analysis and Design</li>
+                            <li>Presently Studying: Advanced Web Development, Principles of Management, Development Tools(Cognos Reporting), Systems Project</li>
+                            <li>Overall average: 86.5%</li>
+                    	</ul>
+                        <h4>Work Experience</h4>
+                        <p>(Jan 2012 – Dec 2012) Scotiabank – Systems Programmer</p>
+                        <ul>
+                            <li>Took requirements from clients</li>
+                            <li>Created reports in Cognos</li>
+                            <li>Database Queries</li>
+                            <li>Created websites in HTML5 and CSS3 with jQuery</li>
+                            <li>Took those webpages and made mobile apps</li>
+                    	</ul>
                     </footer>
                 </article>
 
 				<!--
-                Follow Me / Social Networks
+                Contact Info/ Follow Me / Social Networks
                 -->
                 <aside>
-                    <h3>Contact Info</h3>
-                    <p><span class="bold">Phone:</span> 705-796-4981</p>
-                    <p><span class="bold">Address:</span> 34 Curtiss Court, Barrie, Ontario, Canada</p>
-                    <p><span class="bold">Email:</span> me@robertfoltz.com</p>
-                    <h3>Follow Me!</h3>
-                    <a href="//plus.google.com/109073700143949670409?prsrc=3" rel="publisher" style="text-decoration:none;">
-                    <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
-                    <a href="//ca.linkedin.com/pub/robert-foltz/63/b61/593" rel="" style="text-decoration:none;">
-                    <img src="imgs/linkedin_32.png" alt="LinkedIn" style="border:0;width:32px;height:32px;"/></a>
-                    <a href="http://www.youtube.com/user/FatherBadT0uch?feature=creators_cornier-%2F%2Fs.ytimg.com%2Fyt%2Fimg%2Fcreators_corner%2FYouTube%2F40x40_yt_red.png"><img src="//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="width:32px; height:32px;" alt="Subscribe to me on YouTube"/></a><img src="//www.youtube-nocookie.com/gen_204?feature=creators_cornier-//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="display: none"/>
+                    <img id="mePhoto" src="imgs/robert.jpg" alt="Me, Robert Foltz"/>
+                    <p><span class="bold">Title:</span> Computer Programmer Analyst</p>
+                    <p><span class="bold">School:</span> Georgian College</p>
+                    <p><span class="bold">Favourite Quote:</span> Truth as always, will be far stranger. - Aurthur C. Clarke</p>
                 </aside>
 
             </div> <!-- #main -->

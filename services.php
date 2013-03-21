@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--Source File: index.html
+<!--Source File: services.php
 Name:Robert Foltz
 Last Modified By: Robert Foltz
 Website Name: Robert Folt's Portfolio
-File Description: This is the main page of my portfolio site.
+File Description: This is the services page of my portfolio site.
 -->
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -11,7 +11,6 @@ File Description: This is the main page of my portfolio site.
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-    	<script src="js/redirect.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Robert Foltz's Portfolio</title>
@@ -359,12 +358,12 @@ File Description: This is the main page of my portfolio site.
 </svg>
             	<nav>
                     <ul>
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="projects.php">Projects</a></li>
+                        <li><a class="active" href="services.php">Services</a></li>
                         <li id="github-menu"><a href="https://github.com/rfoltz">GitHub</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -374,52 +373,26 @@ File Description: This is the main page of my portfolio site.
     Main Content
     -->
         <div class="main-container">
-            <div class="main wrapper clearfix">
+            <div class="wide main wrapper clearfix">
 
                 <article>
                     <header>
-                        <h1>Welcome to my site!</h1>
-                        <p>Enjoy.</p>
+                        <h1>Services</h1>
+                        <p>As stated before I am a programmer, I'll program anything and everything. I've used many different technologies old and new, I've worked on Cognos reports for business users and I've worked in Visual Fox pro maintaining an application from around 1994-6. Listed below are the services I provide to customers. But currently at this time since I am in school developing and honing my skills so for the moment I am not providing my services.</p>
                     </header>
                     
-                    <!--
-                    FlexSlider
-                    -->
-                    <section class="slider">
-                    	<div id="actionButton"><a href="projects.html">View more of my Projects</a></div>
-                        <div class="flexslider">
-                          <ul class="slides">
-                            <li>
-                            <a href="projects.html#website"><img src="imgs/mobile.png" alt="iPhone Image"/></a>
-                            </li>
-                            <li>
-                             <a href="projects.html#game"><img src="imgs/game.png" alt="Game Image"/></a>
-                            </li>
-                            <li>
-                             <a href="projects.html#youtube"><img src="imgs/youtube.png" alt="Youtube Image"/></a>
-                            </li>
-                          </ul>
-                        </div>
-                      </section>
+                     <section>
+                        <h2>Web Development</h2>
+                         <img src="imgs/webBanner.png" alt="Web Banner Show Skill" width="990"/>
+                        <p>As your probably know from touring around my website that I do some web development. I've done mobile and tablet web pages for an internal project of Scotiabank that was packaged into a mobile app and published through out the bank.</p>
+                    </section>
+                    
                     
                     <footer>
-                        <h2>I'm the guy who programmes anything and everything.</h2>
-                        <p>I've used many languages from web technology which include, HTML5, CSS3, jQuery all the way to desktop applications with Java and C#. If you would like to see the projects please visit my projects page where I list my greatest projects or visit my services page to see what I offer!</p>
+                        <h2>Desktop Applications</h2>
+                        <p>I provide services that also include desktop applications, when working at Arcline (2000) Inc. I had to maintain and develop new features for their software and have had some experience providing support and development for desktop applications.</p>
                     </footer>
                 </article>
-
-				<!--
-                Follow Me / Social Networks
-                -->
-                <aside>
-                    <h3>Follow Me!</h3>
-                    <a href="//plus.google.com/109073700143949670409?prsrc=3" rel="publisher" style="text-decoration:none;">
-                    <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
-                    <a href="//ca.linkedin.com/pub/robert-foltz/63/b61/593" rel="" style="text-decoration:none;">
-                    <img src="imgs/linkedin_32.png" alt="LinkedIn" style="border:0;width:32px;height:32px;"/></a>
-                    <a href="http://www.youtube.com/user/FatherBadT0uch?feature=creators_cornier-%2F%2Fs.ytimg.com%2Fyt%2Fimg%2Fcreators_corner%2FYouTube%2F40x40_yt_red.png"><img src="//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="width:32px; height:32px;" alt="Subscribe to me on YouTube"/></a><img src="//www.youtube-nocookie.com/gen_204?feature=creators_cornier-//s.ytimg.com/yt/img/creators_corner/YouTube/40x40_yt_red.png" style="display: none" alt="Subscribe to me on YouTube"/>
-                    <p>Feel free to click on any of the following social networks and chat with me I'm always up for talking to new people.</p>
-                </aside>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -440,9 +413,6 @@ File Description: This is the main page of my portfolio site.
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        
-        <!-- FlexSlider -->
-	    <script defer src="js/jquery.flexslider-min.js"></script>
         
         <!-- My Javascript. -->
         <script src="js/main.js"></script>

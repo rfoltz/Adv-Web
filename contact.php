@@ -362,7 +362,8 @@ File Description: This is the contact page of my portfolio site.
                         <li><a href="about.html">About</a></li>
                         <li><a href="projects.php">Projects</a></li>
                         <li><a href="services.php">Services</a></li>
-                        <li id="github-menu"><a href="https://github.com/rfoltz">GitHub</a></li>
+                        <li class="hide"><a href="https://github.com/rfoltz">GitHub</a></li>
+                        <li class="hide"><a href="businesscontacts.php">Business Contacts</a></li>
                         <li><a class="active" href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
@@ -374,7 +375,8 @@ File Description: This is the contact page of my portfolio site.
     -->
         <div class="main-container">
             <div class="main wrapper clearfix">
-
+				
+				<a style="float:right; margin-bottom:20px;" class="gone" href="#">Log Into Business Contacts</a>
                 <article>
                     <header>
                         <h1>Contact Me</h1>

@@ -249,6 +249,12 @@ input#subject {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media only screen and (max-width: 480px) { /*If the with is lower then 480px then hide these elements. */
+	.gone {
+		display:none;
+	}
+}
+
 
 @media only screen and (min-width: 480px) {
 
@@ -286,7 +292,7 @@ input#subject {
         border-right:none;
     }
 	
-	#github-menu {
+	.hide {
 		display:none;
 	}
 	

@@ -249,6 +249,10 @@ input#subject {
 	margin-bottom:20px;
 }
 
+#login-table tr td{
+	padding:10px;
+}
+
 
 
 /* ==========================================================================

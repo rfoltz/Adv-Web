@@ -363,7 +363,7 @@ File Description: This is the projects page of my portfolio site.
                         <li><a class="active" href="projects.php">Projects</a></li>
                         <li><a href="services.php">Services</a></li>
                         <li class="hide"><a href="https://github.com/rfoltz">GitHub</a></li>
-                        <li class="hide"><a href="businesscontacts.php">Business Contacts</a></li>
+                        <li class="hide"><a href="">Business Contacts</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
@@ -376,7 +376,7 @@ File Description: This is the projects page of my portfolio site.
         <div class="main-container">
             <div class="wide main wrapper clearfix">
 
-				 <a style="float:right; margin-bottom:20px;" class="gone" href="#">Log Into Business Contacts</a>
+				<a class="gone b-login" href="#">Log Into Business Contacts</a>
                 <article>
                     <header>
                         <h1>Projects</h1>

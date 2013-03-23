@@ -401,7 +401,7 @@ File Description: This is the login page for the business contacts
 									<td><input type="password" name="password" id="password"></td>
 								</tr>
 								<tr>
-									<td colspan="2"><input style="float:right;" type="submit" value="Login"></td>
+									<td colspan="2"><input id="submit" style="float:right;" type="submit" value="Login"></td>
 								</tr>
 							</table>
                     	</form>

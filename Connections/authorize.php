@@ -88,12 +88,8 @@ if (isset($_POST['username'])) {
   }
   else {
   	// failed user authentication
-    header("Location: ". $MM_redirectLoginFailed );
+    //header("Location: ". $MM_redirectLoginFailed );
+    echo '<script type="text/javascript"> alert("Sorry your username or password are inccorect.");</script>';
   }
 }
-
-// get the current date
-$year = date('Y');
-
-
 ?>

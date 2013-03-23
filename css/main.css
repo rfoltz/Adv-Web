@@ -253,6 +253,13 @@ input#subject {
 	padding:10px;
 }
 
+#contacts-table {
+	width:100%;
+}
+
+#contacts-table td {
+	padding:5px 10px;
+}
 
 
 /* ==========================================================================

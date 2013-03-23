@@ -33,8 +33,14 @@ File Description: This is the page displays the business contacts in my database
         <!--FlexSlider  CSS-->
         <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
         
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="stylesheet" href="css/messi.min.css" />
+        
+        <!--
+        Scripts/Script Linking
+        Moved to the top so some inline jQuery will work.
+        -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
     </head>
     <body>
     <!-- GitHub Ribbon Top Right-->
@@ -372,7 +378,7 @@ File Description: This is the page displays the business contacts in my database
                         <li><a href="projects.php">Projects</a></li>
                         <li><a href="services.php">Services</a></li>
                         <li class="hide"><a href="https://github.com/rfoltz">GitHub</a></li>
-                        <li class="hide"><a href="#">Business Contacts</a></li>
+                        <!-- <li class="hide"><a href="#">Business Contacts</a></li>-->
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
@@ -385,17 +391,27 @@ File Description: This is the page displays the business contacts in my database
         <div class="main-container">
             <div class="main wrapper clearfix">
 				<a class="b-login" href="<?php echo $logoutAction ?>" >Logout</a>
-				<table border="1">
+				<h1>List of Business Contacts</h1>
+				<table id="contacts-table" border="1">
 					<tr>
-						<th>Name</th>
-						<th>Phone Number</th>
-						<th>Address</th>
+						<th>Full Name</th>
 					</tr>
 				<?php foreach ($contacts as $contact) : ?>
 					<tr>
-						<td><?php echo $contact['ContactName']; ?></td>
-						<td><?php echo $contact['PhoneNum']; ?></td>
-						<td><?php echo $contact['Address']; ?></td>
+						<td id="contactName"><a id="modal<?php echo $contact['ContactId']; ?>" href="#"><?php echo $contact['ContactName']; ?></a></td>
+						<input type="hidden" name="phonenum" id="phonenum" value="<?php echo $contact['PhoneNum']; ?>">
+						<input type="hidden" name="address" id="address" value="<?php echo $contact['Address']; ?>">
+						<input type="hidden" name="email" id="email" value="<?php echo $contact['Email']; ?>">
+						<script type="text/javascript">
+							jQuery.noConflict (); //just in case php and jquery act weirdly.
+    						(function($) {
+    							$(document).ready(function() {
+									$("#modal<?php echo $contact['ContactId']; ?>").on('click', function() {
+										new Messi("<p>Phone Number: <?php echo $contact['PhoneNum']; ?></p><p>Address: <?php echo $contact['Address']; ?></p><p>Email: <a href=\'mailto:<?php echo $contact['Email']; ?>\'><?php echo $contact['Email']; ?></a></p>", {title: "<?php echo $contact['ContactName']; ?>", titleClass: 'info', modal: true, width:300});
+									});
+								});
+							})(jQuery); 
+						</script>
 					</tr>
 				<?php endforeach; ?>
 				</table>
@@ -414,15 +430,11 @@ File Description: This is the page displays the business contacts in my database
             </footer>
         </div>
         
-        <!--
-        Scripts/Script Linking
-        -->
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
         
         <!-- FlexSlider -->
 	    <script defer src="js/jquery.flexslider-min.js"></script>
+	    
+	    <script src="js/messi.min.js"></script>
         
         <!-- My Javascript. -->
         <script src="js/main.js"></script>

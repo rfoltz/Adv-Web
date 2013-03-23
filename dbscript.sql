@@ -25,7 +25,7 @@ VALUES ('admin','09c0a300a137693e18d4b80aa23bbcaf74247090','Y'), -- Password = 1
 ('robert','09c0a300a137693e18d4b80aa23bbcaf74247090','Y'), -- Password = 123456
 ('tom','09c0a300a137693e18d4b80aa23bbcaf74247090','N'); -- Password = 123456
 
-INSERT INTO robertfo_advweb.contacts (ContactName, PhoneNum, Address)
+INSERT INTO robertfo_advweb.contacts (ContactName, PhoneNum, Address, Email)
 VALUES ('Robert Harris','17050007894','One Georgian Drive Barrie, ON L4M 3X9','rharris@robertfoltz.com'),
 ('Kyle Bran','17050007894','One Georgian Drive Barrie, ON L4M 3X9','kbran@robertfoltz.com'),
 ('Kaitlyn Rush','17050007894','One Georgian Drive Barrie, ON L4M 3X9','krush@robertfoltz.com'),

@@ -54,7 +54,7 @@ if (isset($_POST['username'])) {
   
   
   $MM_fldUserAuthorization = "";
-  $MM_redirectLoginSuccess = "success.php";
+  $MM_redirectLoginSuccess = "contacts.php";
   $MM_redirectLoginFailed = "failure.php";
   $MM_redirecttoReferrer = false;
   mysql_select_db($database_dbConnection, $dbConnection);

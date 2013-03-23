@@ -1,11 +1,17 @@
+<?php require_once('Connections/dbConnection.php'); ?>
 <?php require_once('Connections/authority.php'); ?>
 
+<?php
+$query = "select * from contacts order by ContactName asc"; // select the contacts in ASC order.
+$contacts = $db->query($query); //get the results from the database.
+?>
+
 <!DOCTYPE html>
-<!--Source File: index.php
+<!--Source File: contacts.php
 Name:Robert Foltz
 Last Modified By: Robert Foltz
 Website Name: Robert Folt's Portfolio
-File Description: This is the main page of my portfolio site.
+File Description: This is the page displays the business contacts in my database.
 -->
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -378,8 +384,21 @@ File Description: This is the main page of my portfolio site.
     -->
         <div class="main-container">
             <div class="main wrapper clearfix">
-				<a href="<?php echo $logoutAction ?>" data-theme="b" data-role="button" data-inline="true">Logout</a>
-
+				<a class="b-login" href="<?php echo $logoutAction ?>" >Logout</a>
+				<table border="1">
+					<tr>
+						<th>Name</th>
+						<th>Phone Number</th>
+						<th>Address</th>
+					</tr>
+				<?php foreach ($contacts as $contact) : ?>
+					<tr>
+						<td><?php echo $contact['ContactName']; ?></td>
+						<td><?php echo $contact['PhoneNum']; ?></td>
+						<td><?php echo $contact['Address']; ?></td>
+					</tr>
+				<?php endforeach; ?>
+				</table>
 			
 
             </div> <!-- #main -->
@@ -409,6 +428,5 @@ File Description: This is the main page of my portfolio site.
         <script src="js/main.js"></script>
     </body>
 </html>
->
 
 

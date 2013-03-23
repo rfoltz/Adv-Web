@@ -1,4 +1,11 @@
 <?php
+/*Source File: authority.php
+Name:Robert Foltz
+Last Modified By: Robert Foltz
+Website Name: Robert Folt's Portfolio
+File Description: This is the page makes sure the user is logged in.
+*/
+
 //initialize the session
 if (!isset($_SESSION)) {
   session_start();

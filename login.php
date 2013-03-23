@@ -2,7 +2,7 @@
 <?php require_once('Connections/authorize.php'); ?>
 
 <!DOCTYPE html>
-<!--Source File: contacts.php
+<!--Source File: login.php
 Name:Robert Foltz
 Last Modified By: Robert Foltz
 Website Name: Robert Folt's Portfolio

@@ -1,4 +1,12 @@
 <?php
+/*Source File: authorize.php
+Name:Robert Foltz
+Last Modified By: Robert Foltz
+Website Name: Robert Folt's Portfolio
+File Description: This is the page logs in the user to the contacts.php page.
+*/
+
+
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
 {

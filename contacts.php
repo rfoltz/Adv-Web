@@ -19,7 +19,6 @@ File Description: This is the page displays the business contacts in my database
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-    	<script src="js/redirect.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Robert Foltz's Portfolio</title>

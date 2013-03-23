@@ -14,7 +14,6 @@ File Description: This is the login page for the business contacts
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-    	<script src="js/redirect.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Robert Foltz's Portfolio</title>
@@ -362,12 +361,12 @@ File Description: This is the login page for the business contacts
 </svg>
             	<nav>
                     <ul>
-                        <li><a class="active" href="index.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="projects.php">Projects</a></li>
                         <li><a href="services.php">Services</a></li>
                         <li class="hide"><a href="https://github.com/rfoltz">GitHub</a></li>
-                        <li class="hide"><a href="#">Business Contacts</a></li>
+                        <li class="hide"><a class="active" href="#">Business Contacts</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>

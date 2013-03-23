@@ -1,3 +1,10 @@
+<?php
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <!--Source File: contacts.php
 Name:Robert Foltz
@@ -391,11 +398,11 @@ File Description: This is the login page for the business contacts
                     		<table id="login-table">
 								<tr>
 									<td>Username: </td>
-									<td><input type="text" name="username"></td>
+									<td><input type="text" name="username" id="username"></td>
 								</tr>
 								<tr>
 									<td>Password:</td>
-									<td><input type="password" name="password"></td>
+									<td><input type="password" name="password" id="password"></td>
 								</tr>
 								<tr>
 									<td colspan="2"><input style="float:right;" type="submit" value="Login"></td>

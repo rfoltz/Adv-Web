@@ -25,6 +25,8 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
   unset($_SESSION['MM_Username']);
   unset($_SESSION['MM_UserGroup']);
   unset($_SESSION['PrevUrl']);
+  
+  mysql_close($dbConnection); //close connection to the database.
 	
   $logoutGoTo = "login.php";
   if ($logoutGoTo) {

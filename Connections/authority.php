@@ -3,7 +3,7 @@
 Name:Robert Foltz
 Last Modified By: Robert Foltz
 Website Name: Robert Folt's Portfolio
-File Description: This is the page makes sure the user is logged in.
+File Description: This is the page that makes sure the user is logged in and makes pages secure.
 */
 
 //initialize the session
